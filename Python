@@ -1,0 +1,8 @@
+hrs = input("Enter Hours:") 
+rt = input("rate:") 
+if float(hrs) <= 40 : 
+   pay = float(hrs) * float(rt) 
+else: 
+   pay = (40 * float (rt) )+ ((float (hrs) - 40 )*float (rt)*1.5) 
+print(pay) 
+# note float is given before pay as py doesn't know pay is number
